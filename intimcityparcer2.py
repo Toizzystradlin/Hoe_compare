@@ -29,14 +29,13 @@ while (c <= 100):
             with open(file_name + '.png', 'wb') as f:
                 f.write(photo)
                 a = a+1
-                file_name = str(a) 
+                file_name = str(a)
                 time.sleep(random.uniform(3, 5))
     except:
         continue
-            
+
     c+=1
     a+=100
     i+=1
     file_name = str(a)
     time.sleep(random.uniform(4, 6))
-    
