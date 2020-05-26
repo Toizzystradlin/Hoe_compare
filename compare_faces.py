@@ -1,3 +1,6 @@
+# в папку samples кидаешь фотки jpg , прога сравнивает их с той что лежит там же где файл
+
+
 import dlib
 from skimage import io
 from scipy.spatial import distance
